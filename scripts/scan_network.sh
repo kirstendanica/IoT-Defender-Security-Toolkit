@@ -1,5 +1,6 @@
 #!/bin/bash
-# Network scanning script using nmap
+# NETWORK SCAN SCRIPT (via nmap)
+
 if [ -z "$1" ]; then
     echo "Usage: $0 <network>"
     exit 1
